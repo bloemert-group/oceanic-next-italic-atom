@@ -19,7 +19,7 @@
     "italic",
     "operator mono"
   ],
-  "repository": "https://github.com/SintrumIT/oceanic-next-italic",
+  "repository": "https://github.com/SintrumIT/oceanic-next-italic.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
