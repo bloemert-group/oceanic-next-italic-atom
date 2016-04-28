@@ -7,7 +7,7 @@ echo ## Updating theme to latest version
 call git submodule update --remote --merge
 
 echo ## Generate theme again using APM
-apm init --theme . --convert ./theme/Oceanic Next Italic.tmTheme
+call apm init --theme . --convert "./theme/Oceanic Next Italic.tmTheme"
 
 echo ## Commiting updated theme
 call git commit -am "Updated theme"
