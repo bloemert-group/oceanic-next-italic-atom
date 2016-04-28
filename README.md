@@ -10,7 +10,7 @@ apm install oceanic-next-italic
 ### Git clone
 ```bash
 cd ~/.atom/packages
-git clone https://github.com/SintrumIT/oceanic-next-italic --depth=1
+git clone https://github.com/SintrumIT/oceanic-next-italic-atom --depth=1
 ```
 
 ## Atom.io
