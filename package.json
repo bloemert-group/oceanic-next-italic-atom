@@ -6,7 +6,7 @@
   "description": "Customized Oceanic Next theme with italic flavours",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SintrumIT/oceanic-next-italic.git"
+    "url": "git+https://github.com/SintrumIT/oceanic-next-italic-atom.git"
   },
   "license": "MIT",
   "engines": {
