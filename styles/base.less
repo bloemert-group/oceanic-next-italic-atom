@@ -53,6 +53,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .comment, .punctuation.definition.comment {
+  font-style: italic;
   color: #65737e;
 }
 
@@ -64,7 +65,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #C594C5;
 }
 
-.keyword.operator, .constant.other.color, .punctuation, .meta.tag, .punctuation.definition.tag, .punctuation.separator.inheritance.php, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.section.embedded, .keyword.other.template, .keyword.other.substitution {
+.keyword.operator, .constant.other.color, .punctuation, .meta.tag, .punctuation.definition.tag, .punctuation.separator.inheritance.php, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.section.embedded, .keyword.other.template, .keyword.other.substitution, .punctuation.terminator.statement {
   color: #5FB3B3;
 }
 
@@ -82,6 +83,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .constant.numeric, .constant.language, .support.constant, .constant.character, .variable.parameter, .keyword.other.unit {
   color: #F99157;
+}
+
+.constant.language.this.js {
+  font-style: italic;
+  color: #EC5F67;
 }
 
 .string, .constant.other.symbol, .constant.other.key, .entity.other.inherited-class, .markup.heading, .markup.inserted.git_gutter, .meta.group.braces.curly .constant.other.object.key.js .string.unquoted.label.js {
